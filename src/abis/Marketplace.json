@@ -5414,14 +5414,81 @@
   },
   "networks": {
     "5777": {
-      "events": {},
+      "events": {
+        "0xbc59c0c8165864dcceb377dd07d8f431d4303f8e501cb0a0374a10cc68d71836": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "purchased",
+              "type": "bool"
+            }
+          ],
+          "name": "ProductCreated",
+          "type": "event",
+          "signature": "0xbc59c0c8165864dcceb377dd07d8f431d4303f8e501cb0a0374a10cc68d71836"
+        },
+        "0x79558d0d7d4d900e2f15c4cc0a665f1acdbe415e44de900ecdd1e5bf12b56f4e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "purchased",
+              "type": "bool"
+            }
+          ],
+          "name": "ProductPurchased",
+          "type": "event",
+          "signature": "0x79558d0d7d4d900e2f15c4cc0a665f1acdbe415e44de900ecdd1e5bf12b56f4e"
+        }
+      },
       "links": {},
-      "address": "0x350d9eEc5606baf31eaCF41AdDEC70DF3a67214a",
-      "transactionHash": "0x8fb3aacb75b7d6ecfef228d3a3ad8392b7c82af5028549d26f3172b3ac4dd290"
+      "address": "0x740F26137d5d9166f5575537896C03bb3cb479C4",
+      "transactionHash": "0xe8940da5088dc899d4c0a1347841e3976f083fb38025684c605e7b14bab44452"
     }
   },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-09-14T12:24:15.964Z",
+  "updatedAt": "2019-09-21T07:02:34.671Z",
   "devdoc": {
     "methods": {}
   },
