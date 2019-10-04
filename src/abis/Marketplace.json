@@ -5483,12 +5483,86 @@
         }
       },
       "links": {},
-      "address": "0x740F26137d5d9166f5575537896C03bb3cb479C4",
-      "transactionHash": "0xe8940da5088dc899d4c0a1347841e3976f083fb38025684c605e7b14bab44452"
+      "address": "0x35e9f584Dd0907136d6F9177099Ef9179E0F6c13",
+      "transactionHash": "0xfa8662c22fe195fbe63a03e2f3739d9572b9041a920d375810bb2ad22296e74d"
+    },
+    
+    "42": {
+      "events": {
+        "0xbc59c0c8165864dcceb377dd07d8f431d4303f8e501cb0a0374a10cc68d71836": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "purchased",
+              "type": "bool"
+            }
+          ],
+          "name": "ProductCreated",
+          "type": "event",
+          "signature": "0xbc59c0c8165864dcceb377dd07d8f431d4303f8e501cb0a0374a10cc68d71836"
+        },
+        "0x79558d0d7d4d900e2f15c4cc0a665f1acdbe415e44de900ecdd1e5bf12b56f4e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "purchased",
+              "type": "bool"
+            }
+          ],
+          "name": "ProductPurchased",
+          "type": "event",
+          "signature": "0x79558d0d7d4d900e2f15c4cc0a665f1acdbe415e44de900ecdd1e5bf12b56f4e"
+        }
+      },
+      "links": {},
+      "address": "0x2d9244ffa08bc85aa56b2798e51aa9aac5aa3659",
+      "transactionHash": "0x26d1d1d10eeb4702f9dbead7e90941a9fe4a69a0f78774dc4ed51b0b8c1d9ba7"
     }
   },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-09-21T07:02:34.671Z",
+  "updatedAt": "2019-09-25T21:49:23.262Z",
   "devdoc": {
     "methods": {}
   },
